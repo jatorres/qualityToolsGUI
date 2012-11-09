@@ -1,0 +1,9 @@
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\bin\Debug\qualityToolsGUI.exe
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\bin\Debug\qualityToolsGUI.pdb
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Form1.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Properties.Resources.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.exe
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.pdb
