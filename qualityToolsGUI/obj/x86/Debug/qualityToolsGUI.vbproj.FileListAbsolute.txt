@@ -9,3 +9,6 @@ C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debu
 C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.exe
 C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.xml
 C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.pdb
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.menuPrincipal.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.recordarContrasena.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.informacionBasicaEmpresa.resources

@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.groupBox1 = New System.Windows.Forms.GroupBox()
         Me.linkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.button1 = New System.Windows.Forms.Button()
@@ -41,6 +42,7 @@ Partial Class Form1
         Me.groupBox1.Controls.Add(Me.textBox1)
         Me.groupBox1.Controls.Add(Me.label3)
         Me.groupBox1.Controls.Add(Me.label2)
+        Me.groupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.groupBox1.Location = New System.Drawing.Point(13, 45)
         Me.groupBox1.Name = "groupBox1"
         Me.groupBox1.Size = New System.Drawing.Size(303, 134)
@@ -51,9 +53,9 @@ Partial Class Form1
         'linkLabel1
         '
         Me.linkLabel1.AutoSize = True
-        Me.linkLabel1.Location = New System.Drawing.Point(50, 92)
+        Me.linkLabel1.Location = New System.Drawing.Point(28, 86)
         Me.linkLabel1.Name = "linkLabel1"
-        Me.linkLabel1.Size = New System.Drawing.Size(153, 26)
+        Me.linkLabel1.Size = New System.Drawing.Size(175, 30)
         Me.linkLabel1.TabIndex = 5
         Me.linkLabel1.TabStop = True
         Me.linkLabel1.Text = "Olvido su usuario o contraseña" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Clic para recordar"
@@ -72,7 +74,7 @@ Partial Class Form1
         '
         Me.textBox2.Location = New System.Drawing.Point(100, 49)
         Me.textBox2.Name = "textBox2"
-        Me.textBox2.Size = New System.Drawing.Size(182, 20)
+        Me.textBox2.Size = New System.Drawing.Size(182, 21)
         Me.textBox2.TabIndex = 3
         Me.textBox2.UseSystemPasswordChar = True
         '
@@ -80,7 +82,7 @@ Partial Class Form1
         '
         Me.textBox1.Location = New System.Drawing.Point(100, 23)
         Me.textBox1.Name = "textBox1"
-        Me.textBox1.Size = New System.Drawing.Size(182, 20)
+        Me.textBox1.Size = New System.Drawing.Size(182, 21)
         Me.textBox1.TabIndex = 2
         '
         'label3
@@ -121,11 +123,11 @@ Partial Class Form1
         Me.Controls.Add(Me.groupBox1)
         Me.Controls.Add(Me.label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Bienvenido"
         Me.groupBox1.ResumeLayout(False)
         Me.groupBox1.PerformLayout()
         Me.ResumeLayout(False)
