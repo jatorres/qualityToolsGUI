@@ -64,6 +64,7 @@ Partial Class SplashScreen1
         Me.Developers.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Developers.Location = New System.Drawing.Point(3, 0)
         Me.Developers.Name = "Developers"
+        Me.Developers.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.Developers.Size = New System.Drawing.Size(237, 218)
         Me.Developers.TabIndex = 5
         Me.Developers.Text = "Developers. "
@@ -130,6 +131,7 @@ Partial Class SplashScreen1
         Me.nameDevelopers.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nameDevelopers.Location = New System.Drawing.Point(3, 220)
         Me.nameDevelopers.Name = "nameDevelopers"
+        Me.nameDevelopers.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.nameDevelopers.Size = New System.Drawing.Size(237, 80)
         Me.nameDevelopers.TabIndex = 4
         Me.nameDevelopers.Text = "Angel Torres" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Janeth Zaldua" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Oneida Camacho" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Rafael Cifuentes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Rodolfo Moncada"

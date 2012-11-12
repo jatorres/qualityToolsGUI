@@ -25,24 +25,24 @@ Partial Class auditoriaOpciones
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(auditoriaOpciones))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Controls.Add(Me.CheckBox5)
-        Me.GroupBox1.Controls.Add(Me.CheckBox4)
-        Me.GroupBox1.Controls.Add(Me.CheckBox3)
-        Me.GroupBox1.Controls.Add(Me.CheckBox2)
-        Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Location = New System.Drawing.Point(7, 48)
         Me.GroupBox1.Name = "GroupBox1"
@@ -60,64 +60,15 @@ Partial Class auditoriaOpciones
         Me.Button1.Text = "Iniciar auditoria"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'CheckBox5
-        '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(19, 180)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(230, 17)
-        Me.CheckBox5.TabIndex = 6
-        Me.CheckBox5.Text = "Control de documentos y registros del SGSI"
-        Me.CheckBox5.UseVisualStyleBackColor = True
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(19, 157)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(182, 17)
-        Me.CheckBox4.TabIndex = 5
-        Me.CheckBox4.Text = "Mantenimiento y mejora del SGSI"
-        Me.CheckBox4.UseVisualStyleBackColor = True
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(19, 134)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(176, 17)
-        Me.CheckBox3.TabIndex = 4
-        Me.CheckBox3.Text = "Seguimiento y revisión del SGSI"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(19, 111)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(203, 17)
-        Me.CheckBox2.TabIndex = 3
-        Me.CheckBox2.Text = "Implementación y operación del SGSI"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(19, 88)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(145, 17)
-        Me.CheckBox1.TabIndex = 2
-        Me.CheckBox1.Text = "Establecimiento del SGSI"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(16, 26)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(341, 39)
+        Me.Label2.Size = New System.Drawing.Size(319, 39)
         Me.Label2.TabIndex = 0
-        Me.Label2.Text = resources.GetString("Label2.Text")
+        Me.Label2.Text = "A continuación se enuncian las cinco (5) categorias en las cuales " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "se auditara a" & _
+            " la organización. Dar clic en el botón para iniciar la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "auditoria."
         '
         'Label1
         '
@@ -128,6 +79,51 @@ Partial Class auditoriaOpciones
         Me.Label1.Size = New System.Drawing.Size(159, 20)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Opciones auditoria"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(35, 82)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(126, 13)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "Establecimiento del SGSI"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(35, 104)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(184, 13)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Implementación y operación del SGSI"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(35, 128)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(157, 13)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "Seguimiento y revisión del SGSI"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(35, 152)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(163, 13)
+        Me.Label6.TabIndex = 11
+        Me.Label6.Text = "Mantenimiento y mejora del SGSI"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(35, 174)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(211, 13)
+        Me.Label7.TabIndex = 12
+        Me.Label7.Text = "Control de documentos y registros del SGSI"
         '
         'auditoriaOpciones
         '
@@ -150,11 +146,11 @@ Partial Class auditoriaOpciones
     End Sub
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 End Class
