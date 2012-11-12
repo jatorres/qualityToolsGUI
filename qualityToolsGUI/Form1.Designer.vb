@@ -31,11 +31,15 @@ Partial Class Form1
         Me.label3 = New System.Windows.Forms.Label()
         Me.label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.groupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'groupBox1
         '
+        Me.groupBox1.Controls.Add(Me.Button2)
         Me.groupBox1.Controls.Add(Me.linkLabel1)
         Me.groupBox1.Controls.Add(Me.button1)
         Me.groupBox1.Controls.Add(Me.textBox2)
@@ -43,9 +47,9 @@ Partial Class Form1
         Me.groupBox1.Controls.Add(Me.label3)
         Me.groupBox1.Controls.Add(Me.label2)
         Me.groupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.groupBox1.Location = New System.Drawing.Point(13, 45)
+        Me.groupBox1.Location = New System.Drawing.Point(10, 130)
         Me.groupBox1.Name = "groupBox1"
-        Me.groupBox1.Size = New System.Drawing.Size(303, 134)
+        Me.groupBox1.Size = New System.Drawing.Size(220, 182)
         Me.groupBox1.TabIndex = 3
         Me.groupBox1.TabStop = False
         Me.groupBox1.Text = "Datos"
@@ -53,7 +57,7 @@ Partial Class Form1
         'linkLabel1
         '
         Me.linkLabel1.AutoSize = True
-        Me.linkLabel1.Location = New System.Drawing.Point(28, 86)
+        Me.linkLabel1.Location = New System.Drawing.Point(6, 141)
         Me.linkLabel1.Name = "linkLabel1"
         Me.linkLabel1.Size = New System.Drawing.Size(175, 30)
         Me.linkLabel1.TabIndex = 5
@@ -63,16 +67,16 @@ Partial Class Form1
         '
         'button1
         '
-        Me.button1.Location = New System.Drawing.Point(209, 86)
+        Me.button1.Location = New System.Drawing.Point(9, 113)
         Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(73, 25)
+        Me.button1.Size = New System.Drawing.Size(87, 25)
         Me.button1.TabIndex = 4
         Me.button1.Text = "Ingresar"
         Me.button1.UseVisualStyleBackColor = True
         '
         'textBox2
         '
-        Me.textBox2.Location = New System.Drawing.Point(100, 49)
+        Me.textBox2.Location = New System.Drawing.Point(9, 86)
         Me.textBox2.Name = "textBox2"
         Me.textBox2.Size = New System.Drawing.Size(182, 21)
         Me.textBox2.TabIndex = 3
@@ -80,7 +84,7 @@ Partial Class Form1
         '
         'textBox1
         '
-        Me.textBox1.Location = New System.Drawing.Point(100, 23)
+        Me.textBox1.Location = New System.Drawing.Point(9, 43)
         Me.textBox1.Name = "textBox1"
         Me.textBox1.Size = New System.Drawing.Size(182, 21)
         Me.textBox1.TabIndex = 2
@@ -89,7 +93,7 @@ Partial Class Form1
         '
         Me.label3.AutoSize = True
         Me.label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label3.Location = New System.Drawing.Point(17, 50)
+        Me.label3.Location = New System.Drawing.Point(6, 67)
         Me.label3.Name = "label3"
         Me.label3.Size = New System.Drawing.Size(77, 16)
         Me.label3.TabIndex = 1
@@ -99,7 +103,7 @@ Partial Class Form1
         '
         Me.label2.AutoSize = True
         Me.label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label2.Location = New System.Drawing.Point(39, 24)
+        Me.label2.Location = New System.Drawing.Point(6, 24)
         Me.label2.Name = "label2"
         Me.label2.Size = New System.Drawing.Size(55, 16)
         Me.label2.TabIndex = 0
@@ -108,18 +112,40 @@ Partial Class Form1
         'label1
         '
         Me.label1.AutoSize = True
-        Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1.Location = New System.Drawing.Point(91, 9)
+        Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label1.ForeColor = System.Drawing.Color.Blue
+        Me.label1.Location = New System.Drawing.Point(12, 6)
         Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(125, 24)
+        Me.label1.Size = New System.Drawing.Size(142, 26)
         Me.label1.TabIndex = 2
         Me.label1.Text = "Bienvenidos"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
+        Me.PictureBox1.Location = New System.Drawing.Point(19, 33)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(200, 97)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(102, 113)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(89, 25)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "Salir"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(327, 190)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(239, 317)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.groupBox1)
         Me.Controls.Add(Me.label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -130,6 +156,7 @@ Partial Class Form1
         Me.Text = "Bienvenido"
         Me.groupBox1.ResumeLayout(False)
         Me.groupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -142,5 +169,7 @@ Partial Class Form1
     Private WithEvents label3 As System.Windows.Forms.Label
     Private WithEvents label2 As System.Windows.Forms.Label
     Private WithEvents label1 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Private WithEvents Button2 As System.Windows.Forms.Button
 
 End Class
