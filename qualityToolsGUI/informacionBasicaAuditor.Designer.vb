@@ -79,9 +79,9 @@ Partial Class informacionBasicaAuditor
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(181, 147)
+        Me.Button4.Location = New System.Drawing.Point(172, 147)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 29)
+        Me.Button4.Size = New System.Drawing.Size(84, 29)
         Me.Button4.TabIndex = 10
         Me.Button4.Text = "Actualizar"
         Me.Button4.UseVisualStyleBackColor = True
@@ -90,9 +90,9 @@ Partial Class informacionBasicaAuditor
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(100, 147)
+        Me.Button5.Location = New System.Drawing.Point(85, 147)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 29)
+        Me.Button5.Size = New System.Drawing.Size(81, 29)
         Me.Button5.TabIndex = 11
         Me.Button5.Text = "Registrar"
         Me.Button5.UseVisualStyleBackColor = True
@@ -184,9 +184,9 @@ Partial Class informacionBasicaAuditor
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(100, 147)
+        Me.Button3.Location = New System.Drawing.Point(85, 147)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 29)
+        Me.Button3.Size = New System.Drawing.Size(81, 29)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = "Registrar nuevo"
         Me.Button3.UseVisualStyleBackColor = True
@@ -195,9 +195,9 @@ Partial Class informacionBasicaAuditor
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(181, 147)
+        Me.Button2.Location = New System.Drawing.Point(172, 147)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 29)
+        Me.Button2.Size = New System.Drawing.Size(84, 29)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "Editar"
         Me.Button2.UseVisualStyleBackColor = True
