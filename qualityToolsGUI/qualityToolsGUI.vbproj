@@ -72,6 +72,19 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="auditoriaOpciones.Designer.vb">
+      <DependentUpon>auditoriaOpciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="auditoriaOpciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="establecimientoSGSIAuditoria.Designer.vb">
+      <DependentUpon>establecimientoSGSIAuditoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="establecimientoSGSIAuditoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -124,8 +137,20 @@
     <Compile Include="recordarContrasena.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="auditoriaOpciones.resx">
+      <DependentUpon>auditoriaOpciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="establecimientoSGSIAuditoria.resx">
+      <DependentUpon>establecimientoSGSIAuditoria.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="recordarContrasena.resx">
       <DependentUpon>recordarContrasena.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\procesos2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qualitySplashScreen1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

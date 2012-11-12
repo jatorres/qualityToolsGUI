@@ -102,6 +102,13 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property qualitySplashScreen() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("qualitySplashScreen", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property reportes() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("reportes", resourceCulture)
