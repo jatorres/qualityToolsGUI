@@ -79,6 +79,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="informacionBasicaAuditor.Designer.vb">
+      <DependentUpon>informacionBasicaAuditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="informacionBasicaAuditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="informacionBasicaEmpresa.Designer.vb">
       <DependentUpon>informacionBasicaEmpresa.vb</DependentUpon>
     </Compile>
@@ -116,6 +122,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="informacionBasicaAuditor.resx">
+      <DependentUpon>informacionBasicaAuditor.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="informacionBasicaEmpresa.resx">
       <DependentUpon>informacionBasicaEmpresa.vb</DependentUpon>

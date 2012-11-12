@@ -25,8 +25,8 @@ Partial Class menuPrincipal
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(menuPrincipal))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,6 +51,15 @@ Partial Class menuPrincipal
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Opciones"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(128, 32)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(80, 48)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Información Auditor"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -60,15 +69,6 @@ Partial Class menuPrincipal
         Me.Label1.Size = New System.Drawing.Size(126, 20)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Menú Principal"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(128, 32)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(80, 48)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Información Auditor"
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'menuPrincipal
         '
