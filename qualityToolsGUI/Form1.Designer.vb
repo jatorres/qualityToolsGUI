@@ -26,30 +26,30 @@ Partial Class Form1
         Me.groupBox1 = New System.Windows.Forms.GroupBox()
         Me.linkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.button1 = New System.Windows.Forms.Button()
-        Me.textBox2 = New System.Windows.Forms.TextBox()
         Me.textBox1 = New System.Windows.Forms.TextBox()
         Me.label3 = New System.Windows.Forms.Label()
         Me.label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.groupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'groupBox1
         '
+        Me.groupBox1.Controls.Add(Me.MaskedTextBox1)
         Me.groupBox1.Controls.Add(Me.Button2)
         Me.groupBox1.Controls.Add(Me.linkLabel1)
         Me.groupBox1.Controls.Add(Me.button1)
-        Me.groupBox1.Controls.Add(Me.textBox2)
         Me.groupBox1.Controls.Add(Me.textBox1)
         Me.groupBox1.Controls.Add(Me.label3)
         Me.groupBox1.Controls.Add(Me.label2)
         Me.groupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.groupBox1.Location = New System.Drawing.Point(10, 130)
         Me.groupBox1.Name = "groupBox1"
-        Me.groupBox1.Size = New System.Drawing.Size(220, 182)
+        Me.groupBox1.Size = New System.Drawing.Size(200, 182)
         Me.groupBox1.TabIndex = 3
         Me.groupBox1.TabStop = False
         Me.groupBox1.Text = "Datos"
@@ -67,20 +67,14 @@ Partial Class Form1
         '
         'button1
         '
+        Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.Location = New System.Drawing.Point(9, 113)
         Me.button1.Name = "button1"
         Me.button1.Size = New System.Drawing.Size(87, 25)
         Me.button1.TabIndex = 4
         Me.button1.Text = "Ingresar"
         Me.button1.UseVisualStyleBackColor = True
-        '
-        'textBox2
-        '
-        Me.textBox2.Location = New System.Drawing.Point(9, 86)
-        Me.textBox2.Name = "textBox2"
-        Me.textBox2.Size = New System.Drawing.Size(182, 21)
-        Me.textBox2.TabIndex = 3
-        Me.textBox2.UseSystemPasswordChar = True
         '
         'textBox1
         '
@@ -123,7 +117,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
-        Me.PictureBox1.Location = New System.Drawing.Point(19, 33)
+        Me.PictureBox1.Location = New System.Drawing.Point(10, 35)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(200, 97)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -132,6 +126,8 @@ Partial Class Form1
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(102, 113)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(89, 25)
@@ -139,12 +135,20 @@ Partial Class Form1
         Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'MaskedTextBox1
+        '
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(9, 87)
+        Me.MaskedTextBox1.Name = "MaskedTextBox1"
+        Me.MaskedTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(182, 21)
+        Me.MaskedTextBox1.TabIndex = 7
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(239, 317)
+        Me.ClientSize = New System.Drawing.Size(219, 317)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.groupBox1)
         Me.Controls.Add(Me.label1)
@@ -164,12 +168,12 @@ Partial Class Form1
     Private WithEvents groupBox1 As System.Windows.Forms.GroupBox
     Private WithEvents linkLabel1 As System.Windows.Forms.LinkLabel
     Private WithEvents button1 As System.Windows.Forms.Button
-    Private WithEvents textBox2 As System.Windows.Forms.TextBox
     Private WithEvents textBox1 As System.Windows.Forms.TextBox
     Private WithEvents label3 As System.Windows.Forms.Label
     Private WithEvents label2 As System.Windows.Forms.Label
     Private WithEvents label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Private WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents MaskedTextBox1 As System.Windows.Forms.MaskedTextBox
 
 End Class
