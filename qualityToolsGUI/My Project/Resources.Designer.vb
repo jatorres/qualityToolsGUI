@@ -67,6 +67,13 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property empresa() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("empresa", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property estadisticas() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("estadisticas", resourceCulture)
@@ -84,6 +91,13 @@ Namespace My.Resources
         Friend ReadOnly Property novedades() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("novedades", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property procesos2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("procesos2", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

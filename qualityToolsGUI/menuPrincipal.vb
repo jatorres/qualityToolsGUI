@@ -25,6 +25,7 @@
     End Sub
 
     Private Sub ProcesosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcesosToolStripMenuItem.Click
+        Mapaprocesos.Show()
 
     End Sub
 End Class

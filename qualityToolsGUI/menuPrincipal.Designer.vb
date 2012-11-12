@@ -37,17 +37,19 @@ Partial Class menuPrincipal
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TiposDeProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProcesosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PersonalizacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripProgressBar1 = New System.Windows.Forms.ToolStripProgressBar()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -140,7 +142,7 @@ Partial Class menuPrincipal
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripProgressBar1})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton5, Me.ToolStripSeparator2, Me.ToolStripButton6, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator1, Me.ToolStripButton4})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(608, 25)
@@ -151,52 +153,6 @@ Partial Class menuPrincipal
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
-        '
-        'ToolStripButton1
-        '
-        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = Global.qualityToolsGUI.My.Resources.Resources.usu
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton1.Text = "ToolStripButton1"
-        '
-        'ToolStripButton2
-        '
-        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = Global.qualityToolsGUI.My.Resources.Resources.novedades
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton2.Text = "ToolStripButton2"
-        '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = Global.qualityToolsGUI.My.Resources.Resources.reportes
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton3.Text = "ToolStripButton3"
-        '
-        'ToolStripButton4
-        '
-        Me.ToolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton4.Image = Global.qualityToolsGUI.My.Resources.Resources.estadisticas
-        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton4.Text = "ToolStripButton4"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 94)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(446, 254)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
         '
         'ProcesosToolStripMenuItem
         '
@@ -228,10 +184,74 @@ Partial Class menuPrincipal
         Me.DocumentacionToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
         Me.DocumentacionToolStripMenuItem.Text = "Documentacion"
         '
-        'ToolStripProgressBar1
+        'ToolStripButton1
         '
-        Me.ToolStripProgressBar1.Name = "ToolStripProgressBar1"
-        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(100, 22)
+        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton1.Image = Global.qualityToolsGUI.My.Resources.Resources.usu
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton1.Text = "ToolStripButton1"
+        '
+        'ToolStripButton5
+        '
+        Me.ToolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton5.Image = Global.qualityToolsGUI.My.Resources.Resources.empresa
+        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton5.Name = "ToolStripButton5"
+        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton5.Text = "ToolStripButton5"
+        '
+        'ToolStripButton2
+        '
+        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton2.Image = Global.qualityToolsGUI.My.Resources.Resources.novedades
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton2.Text = "ToolStripButton2"
+        '
+        'ToolStripButton3
+        '
+        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton3.Image = Global.qualityToolsGUI.My.Resources.Resources.reportes
+        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton3.Name = "ToolStripButton3"
+        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton3.Text = "ToolStripButton3"
+        '
+        'ToolStripButton4
+        '
+        Me.ToolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton4.Image = Global.qualityToolsGUI.My.Resources.Resources.estadisticas
+        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton4.Name = "ToolStripButton4"
+        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton4.Text = "ToolStripButton4"
+        '
+        'ToolStripButton6
+        '
+        Me.ToolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton6.Image = Global.qualityToolsGUI.My.Resources.Resources.procesos2
+        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton6.Name = "ToolStripButton6"
+        Me.ToolStripButton6.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton6.Text = "ToolStripButton6"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 94)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(446, 254)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
+        '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 25)
         '
         'menuPrincipal
         '
@@ -285,5 +305,7 @@ Partial Class menuPrincipal
     Friend WithEvents ProcesosToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PersonalizacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DocumentacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripProgressBar1 As System.Windows.Forms.ToolStripProgressBar
+    Friend WithEvents ToolStripButton5 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton6 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
 End Class

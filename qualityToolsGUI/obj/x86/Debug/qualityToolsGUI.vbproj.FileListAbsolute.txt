@@ -28,4 +28,4 @@ C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qua
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.recordarContrasena.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Form2.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Mapaprocesos.resources
