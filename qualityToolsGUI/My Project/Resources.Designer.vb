@@ -60,9 +60,44 @@ Namespace My.Resources
             End Set
         End Property
         
+        Friend ReadOnly Property _05() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("05", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property estadisticas() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("estadisticas", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property logo_quality() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("logo quality", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property novedades() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("novedades", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property reportes() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("reportes", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property usu() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("usu", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
