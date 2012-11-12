@@ -109,7 +109,7 @@ Partial Class Form1
         '
         Me.label1.AutoSize = True
         Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1.Location = New System.Drawing.Point(109, 9)
+        Me.label1.Location = New System.Drawing.Point(91, 9)
         Me.label1.Name = "label1"
         Me.label1.Size = New System.Drawing.Size(125, 24)
         Me.label1.TabIndex = 2
