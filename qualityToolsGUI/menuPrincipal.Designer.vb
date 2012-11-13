@@ -34,6 +34,7 @@ Partial Class menuPrincipal
         Me.TiposDeProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DiagramasCasosDeUsoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstadisticasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
@@ -41,20 +42,17 @@ Partial Class menuPrincipal
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DiagramasCasosDeUsoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
+        Me.MenuStrip1.BackColor = System.Drawing.Color.White
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BasicosToolStripMenuItem, Me.AuditoriaToolStripMenuItem, Me.NovedadesToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.DocumentacionToolStripMenuItem, Me.EstadisticasToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(794, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(654, 24)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -122,6 +120,12 @@ Partial Class menuPrincipal
         Me.DocumentacionToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
         Me.DocumentacionToolStripMenuItem.Text = "Documentacion"
         '
+        'DiagramasCasosDeUsoToolStripMenuItem
+        '
+        Me.DiagramasCasosDeUsoToolStripMenuItem.Name = "DiagramasCasosDeUsoToolStripMenuItem"
+        Me.DiagramasCasosDeUsoToolStripMenuItem.Size = New System.Drawing.Size(265, 22)
+        Me.DiagramasCasosDeUsoToolStripMenuItem.Text = "Recomendaciones para documentar"
+        '
         'EstadisticasToolStripMenuItem
         '
         Me.EstadisticasToolStripMenuItem.Name = "EstadisticasToolStripMenuItem"
@@ -137,9 +141,9 @@ Partial Class menuPrincipal
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 550)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 512)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(794, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(654, 22)
         Me.StatusStrip1.TabIndex = 5
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -166,40 +170,28 @@ Partial Class menuPrincipal
         '
         'DateTimePicker1
         '
+        Me.DateTimePicker1.CustomFormat = "d-MM-yyyy"
+        Me.DateTimePicker1.Enabled = False
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.DateTimePicker1.Location = New System.Drawing.Point(582, 27)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(506, 512)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(99, 20)
         Me.DateTimePicker1.TabIndex = 6
-        '
-        'DiagramasCasosDeUsoToolStripMenuItem
-        '
-        Me.DiagramasCasosDeUsoToolStripMenuItem.Name = "DiagramasCasosDeUsoToolStripMenuItem"
-        Me.DiagramasCasosDeUsoToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
-        Me.DiagramasCasosDeUsoToolStripMenuItem.Text = "Diagramas casos de uso"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 94)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(446, 254)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
         '
         'menuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(794, 572)
+        Me.BackgroundImage = Global.qualityToolsGUI.My.Resources.Resources.fondoContenedor
+        Me.ClientSize = New System.Drawing.Size(654, 534)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.StatusStrip1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.Name = "menuPrincipal"
@@ -209,7 +201,6 @@ Partial Class menuPrincipal
         Me.MenuStrip1.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -218,7 +209,6 @@ Partial Class menuPrincipal
     Friend WithEvents BasicosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents InformacionEmpresaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents InformacionAuditorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents ToolStripStatusLabel2 As System.Windows.Forms.ToolStripStatusLabel

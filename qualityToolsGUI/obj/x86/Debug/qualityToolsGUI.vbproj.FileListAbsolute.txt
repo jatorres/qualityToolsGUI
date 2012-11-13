@@ -49,3 +49,5 @@ C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qua
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Nuevo_Proceso.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.diagramas.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.direcciongeneral.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.direcciongeneral.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Nuevo_Proceso.resources

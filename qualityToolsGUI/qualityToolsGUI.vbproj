@@ -106,12 +106,6 @@
     <Compile Include="controlDocumentosSGSIAuditoria.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="diagramas.Designer.vb">
-      <DependentUpon>diagramas.vb</DependentUpon>
-    </Compile>
-    <Compile Include="diagramas.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="direcciongeneral.Designer.vb">
       <DependentUpon>direcciongeneral.vb</DependentUpon>
     </Compile>
@@ -220,9 +214,6 @@
     <EmbeddedResource Include="controlDocumentosSGSIAuditoria.resx">
       <DependentUpon>controlDocumentosSGSIAuditoria.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="diagramas.resx">
-      <DependentUpon>diagramas.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="direcciongeneral.resx">
       <DependentUpon>direcciongeneral.vb</DependentUpon>
     </EmbeddedResource>
@@ -316,6 +307,7 @@
     <None Include="Resources\NECESIDADES.jpg" />
     <None Include="Resources\casouso1.jpg" />
     <None Include="Resources\casouso2.jpg" />
+    <None Include="Resources\fondoContenedor.jpg" />
     <Content Include="Resources\qualityControl.ico" />
   </ItemGroup>
   <ItemGroup>
