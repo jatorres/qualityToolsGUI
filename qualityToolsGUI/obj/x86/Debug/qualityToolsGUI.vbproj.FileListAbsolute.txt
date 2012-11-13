@@ -38,3 +38,11 @@ C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debu
 C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.pdb
 C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.controlDocumentosSGSIAuditoria.resources
 C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.puntuacionRecomendSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.auditoriaOpciones.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.controlDocumentosSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.establecimientoSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.implementacionSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.mantenimientoSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.puntuacionRecomendSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.seguimientoSGSIAuditoria.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.SplashScreen1.resources
