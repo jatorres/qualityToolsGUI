@@ -112,6 +112,12 @@
     <Compile Include="diagramas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="direcciongeneral.Designer.vb">
+      <DependentUpon>direcciongeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="direcciongeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="establecimientoSGSIAuditoria.Designer.vb">
       <DependentUpon>establecimientoSGSIAuditoria.vb</DependentUpon>
     </Compile>
@@ -216,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="diagramas.resx">
       <DependentUpon>diagramas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="direcciongeneral.resx">
+      <DependentUpon>direcciongeneral.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="establecimientoSGSIAuditoria.resx">
       <DependentUpon>establecimientoSGSIAuditoria.vb</DependentUpon>

@@ -33,8 +33,6 @@
 
     Private Sub RealizarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RealizarToolStripMenuItem.Click
         auditoriaOpciones.Show()
-        Hide()
-
     End Sub
 
     Private Sub TiposDeProcesosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TiposDeProcesosToolStripMenuItem.Click
