@@ -67,6 +67,20 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property casouso1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("casouso1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property casouso2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("casouso2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property empresa() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("empresa", resourceCulture)

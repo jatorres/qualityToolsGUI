@@ -32,8 +32,6 @@ Partial Class menuPrincipal
         Me.NovedadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TiposDeProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProcesosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PersonalizacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstadisticasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -42,6 +40,8 @@ Partial Class menuPrincipal
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DiagramasCasosDeUsoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -92,7 +92,7 @@ Partial Class menuPrincipal
         '
         'NovedadesToolStripMenuItem
         '
-        Me.NovedadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProcesosToolStripMenuItem, Me.TiposDeProcesosToolStripMenuItem, Me.ProcesosToolStripMenuItem1, Me.PersonalizacionToolStripMenuItem})
+        Me.NovedadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProcesosToolStripMenuItem, Me.TiposDeProcesosToolStripMenuItem})
         Me.NovedadesToolStripMenuItem.Name = "NovedadesToolStripMenuItem"
         Me.NovedadesToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.NovedadesToolStripMenuItem.Text = "Procesos"
@@ -109,18 +109,6 @@ Partial Class menuPrincipal
         Me.TiposDeProcesosToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.TiposDeProcesosToolStripMenuItem.Text = "Nuevo Proceso"
         '
-        'ProcesosToolStripMenuItem1
-        '
-        Me.ProcesosToolStripMenuItem1.Name = "ProcesosToolStripMenuItem1"
-        Me.ProcesosToolStripMenuItem1.Size = New System.Drawing.Size(170, 22)
-        Me.ProcesosToolStripMenuItem1.Text = "Procesos"
-        '
-        'PersonalizacionToolStripMenuItem
-        '
-        Me.PersonalizacionToolStripMenuItem.Name = "PersonalizacionToolStripMenuItem"
-        Me.PersonalizacionToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
-        Me.PersonalizacionToolStripMenuItem.Text = "Personalizacion"
-        '
         'ReportesToolStripMenuItem
         '
         Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
@@ -129,6 +117,7 @@ Partial Class menuPrincipal
         '
         'DocumentacionToolStripMenuItem
         '
+        Me.DocumentacionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DiagramasCasosDeUsoToolStripMenuItem})
         Me.DocumentacionToolStripMenuItem.Name = "DocumentacionToolStripMenuItem"
         Me.DocumentacionToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
         Me.DocumentacionToolStripMenuItem.Text = "Documentacion"
@@ -175,6 +164,20 @@ Partial Class menuPrincipal
         Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(151, 17)
         Me.ToolStripStatusLabel3.Text = "                                       Perfil"
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.DateTimePicker1.Location = New System.Drawing.Point(582, 27)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 6
+        '
+        'DiagramasCasosDeUsoToolStripMenuItem
+        '
+        Me.DiagramasCasosDeUsoToolStripMenuItem.Name = "DiagramasCasosDeUsoToolStripMenuItem"
+        Me.DiagramasCasosDeUsoToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
+        Me.DiagramasCasosDeUsoToolStripMenuItem.Text = "Diagramas casos de uso"
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
@@ -191,6 +194,7 @@ Partial Class menuPrincipal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(794, 572)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -225,9 +229,9 @@ Partial Class menuPrincipal
     Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ProcesosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TiposDeProcesosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ProcesosToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PersonalizacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DocumentacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AuditoriaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RealizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents DiagramasCasosDeUsoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

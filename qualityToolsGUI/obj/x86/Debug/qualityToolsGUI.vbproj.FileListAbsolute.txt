@@ -47,3 +47,4 @@ C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qua
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.seguimientoSGSIAuditoria.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.SplashScreen1.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.Nuevo_Proceso.resources
+C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.diagramas.resources
