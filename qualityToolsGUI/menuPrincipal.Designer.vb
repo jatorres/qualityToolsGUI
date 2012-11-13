@@ -27,6 +27,8 @@ Partial Class menuPrincipal
         Me.BasicosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformacionEmpresaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformacionAuditorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AuditoriaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RealizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NovedadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TiposDeProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -40,21 +42,9 @@ Partial Class menuPrincipal
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.AuditoriaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RealizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
-        Me.ToolStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -64,7 +54,7 @@ Partial Class menuPrincipal
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BasicosToolStripMenuItem, Me.AuditoriaToolStripMenuItem, Me.NovedadesToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.DocumentacionToolStripMenuItem, Me.EstadisticasToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(608, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(794, 24)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -87,6 +77,19 @@ Partial Class menuPrincipal
         Me.InformacionAuditorToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.InformacionAuditorToolStripMenuItem.Text = "Informacion Auditor"
         '
+        'AuditoriaToolStripMenuItem
+        '
+        Me.AuditoriaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RealizarToolStripMenuItem})
+        Me.AuditoriaToolStripMenuItem.Name = "AuditoriaToolStripMenuItem"
+        Me.AuditoriaToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.AuditoriaToolStripMenuItem.Text = "Auditoria"
+        '
+        'RealizarToolStripMenuItem
+        '
+        Me.RealizarToolStripMenuItem.Name = "RealizarToolStripMenuItem"
+        Me.RealizarToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.RealizarToolStripMenuItem.Text = "Auditar organización"
+        '
         'NovedadesToolStripMenuItem
         '
         Me.NovedadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProcesosToolStripMenuItem, Me.TiposDeProcesosToolStripMenuItem, Me.ProcesosToolStripMenuItem1, Me.PersonalizacionToolStripMenuItem})
@@ -104,7 +107,7 @@ Partial Class menuPrincipal
         '
         Me.TiposDeProcesosToolStripMenuItem.Name = "TiposDeProcesosToolStripMenuItem"
         Me.TiposDeProcesosToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
-        Me.TiposDeProcesosToolStripMenuItem.Text = "Tipos de procesos"
+        Me.TiposDeProcesosToolStripMenuItem.Text = "Nuevo Proceso"
         '
         'ProcesosToolStripMenuItem1
         '
@@ -145,9 +148,9 @@ Partial Class menuPrincipal
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 445)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 550)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(608, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(794, 22)
         Me.StatusStrip1.TabIndex = 5
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -172,92 +175,6 @@ Partial Class menuPrincipal
         Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(151, 17)
         Me.ToolStripStatusLabel3.Text = "                                       Perfil"
         '
-        'ToolStrip1
-        '
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton5, Me.ToolStripSeparator2, Me.ToolStripButton6, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator1, Me.ToolStripButton4})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
-        Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(608, 25)
-        Me.ToolStrip1.TabIndex = 6
-        Me.ToolStrip1.Text = "ToolStrip1"
-        '
-        'ToolStripSeparator2
-        '
-        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 25)
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
-        '
-        'AuditoriaToolStripMenuItem
-        '
-        Me.AuditoriaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RealizarToolStripMenuItem})
-        Me.AuditoriaToolStripMenuItem.Name = "AuditoriaToolStripMenuItem"
-        Me.AuditoriaToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
-        Me.AuditoriaToolStripMenuItem.Text = "Auditoria"
-        '
-        'RealizarToolStripMenuItem
-        '
-        Me.RealizarToolStripMenuItem.Name = "RealizarToolStripMenuItem"
-        Me.RealizarToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
-        Me.RealizarToolStripMenuItem.Text = "Auditar organización"
-        '
-        'ToolStripButton1
-        '
-        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = Global.qualityToolsGUI.My.Resources.Resources.usu
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton1.Text = "ToolStripButton1"
-        '
-        'ToolStripButton5
-        '
-        Me.ToolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton5.Image = Global.qualityToolsGUI.My.Resources.Resources.empresa
-        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton5.Text = "ToolStripButton5"
-        '
-        'ToolStripButton6
-        '
-        Me.ToolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton6.Image = Global.qualityToolsGUI.My.Resources.Resources.procesos2
-        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton6.Name = "ToolStripButton6"
-        Me.ToolStripButton6.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton6.Text = "ToolStripButton6"
-        '
-        'ToolStripButton2
-        '
-        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = Global.qualityToolsGUI.My.Resources.Resources.novedades
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton2.Text = "ToolStripButton2"
-        '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = Global.qualityToolsGUI.My.Resources.Resources.reportes
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton3.Text = "ToolStripButton3"
-        '
-        'ToolStripButton4
-        '
-        Me.ToolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton4.Image = Global.qualityToolsGUI.My.Resources.Resources.estadisticas
-        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton4.Text = "ToolStripButton4"
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.qualityToolsGUI.My.Resources.Resources.logo_quality
@@ -273,8 +190,7 @@ Partial Class menuPrincipal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(608, 467)
-        Me.Controls.Add(Me.ToolStrip1)
+        Me.ClientSize = New System.Drawing.Size(794, 572)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -289,8 +205,6 @@ Partial Class menuPrincipal
         Me.MenuStrip1.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
-        Me.ToolStrip1.ResumeLayout(False)
-        Me.ToolStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -309,20 +223,11 @@ Partial Class menuPrincipal
     Friend WithEvents ReportesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EstadisticasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
-    Friend WithEvents ToolStripButton1 As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ToolStripButton2 As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ToolStripButton3 As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ToolStripButton4 As System.Windows.Forms.ToolStripButton
     Friend WithEvents ProcesosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TiposDeProcesosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ProcesosToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PersonalizacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DocumentacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripButton5 As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ToolStripButton6 As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents AuditoriaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RealizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

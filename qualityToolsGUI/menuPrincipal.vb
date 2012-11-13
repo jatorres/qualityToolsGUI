@@ -2,13 +2,13 @@
 
     Private Sub InformacionEmpresaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InformacionEmpresaToolStripMenuItem.Click
         informacionBasicaEmpresa.Show()
-        Hide()
+
 
     End Sub
 
     Private Sub InformacionAuditorToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InformacionAuditorToolStripMenuItem.Click
         informacionBasicaAuditor.Show()
-        Hide()
+
 
     End Sub
 
@@ -33,6 +33,11 @@
 
     Private Sub RealizarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RealizarToolStripMenuItem.Click
         auditoriaOpciones.Show()
+
+    End Sub
+
+    Private Sub TiposDeProcesosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TiposDeProcesosToolStripMenuItem.Click
+        Nuevo_Proceso.Show()
 
     End Sub
 End Class

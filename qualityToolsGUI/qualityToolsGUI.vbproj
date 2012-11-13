@@ -170,6 +170,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Nuevo Proceso.Designer.vb">
+      <DependentUpon>Nuevo Proceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nuevo Proceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="puntuacionRecomendSGSIAuditoria.Designer.vb">
       <DependentUpon>puntuacionRecomendSGSIAuditoria.vb</DependentUpon>
     </Compile>
@@ -231,6 +237,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nuevo Proceso.resx">
+      <DependentUpon>Nuevo Proceso.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="puntuacionRecomendSGSIAuditoria.resx">
       <DependentUpon>puntuacionRecomendSGSIAuditoria.vb</DependentUpon>
