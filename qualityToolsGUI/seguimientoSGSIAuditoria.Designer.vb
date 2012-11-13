@@ -24,6 +24,10 @@ Partial Class seguimientoSGSIAuditoria
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(seguimientoSGSIAuditoria))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -48,17 +52,13 @@ Partial Class seguimientoSGSIAuditoria
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
+        Me.Panel6.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        Me.Panel6.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -80,20 +80,65 @@ Partial Class seguimientoSGSIAuditoria
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Preguntas"
         '
+        'Panel6
+        '
+        Me.Panel6.Controls.Add(Me.Label8)
+        Me.Panel6.Controls.Add(Me.RadioButton11)
+        Me.Panel6.Controls.Add(Me.RadioButton12)
+        Me.Panel6.Location = New System.Drawing.Point(18, 290)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(523, 43)
+        Me.Panel6.TabIndex = 8
+        '
+        'Label8
+        '
+        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label8.Location = New System.Drawing.Point(3, 3)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(3)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(428, 37)
+        Me.Label8.TabIndex = 0
+        Me.Label8.Text = "6. Registra acciones y eventos que pueden impactar la eficacia o desempeño del SG" & _
+            "CI."
+        '
+        'RadioButton11
+        '
+        Me.RadioButton11.AutoSize = True
+        Me.RadioButton11.Checked = True
+        Me.RadioButton11.Location = New System.Drawing.Point(479, 11)
+        Me.RadioButton11.Name = "RadioButton11"
+        Me.RadioButton11.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButton11.TabIndex = 2
+        Me.RadioButton11.TabStop = True
+        Me.RadioButton11.Text = "No"
+        Me.RadioButton11.UseVisualStyleBackColor = True
+        '
+        'RadioButton12
+        '
+        Me.RadioButton12.AutoSize = True
+        Me.RadioButton12.Location = New System.Drawing.Point(437, 11)
+        Me.RadioButton12.Name = "RadioButton12"
+        Me.RadioButton12.Size = New System.Drawing.Size(36, 19)
+        Me.RadioButton12.TabIndex = 1
+        Me.RadioButton12.Text = "Si"
+        Me.RadioButton12.UseVisualStyleBackColor = True
+        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(385, 353)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(380, 353)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(80, 23)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Siguiente"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(466, 353)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(461, 353)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(80, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Volver"
         Me.Button1.UseVisualStyleBackColor = True
@@ -330,53 +375,11 @@ Partial Class seguimientoSGSIAuditoria
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Seguimiento y revisión del SGSI"
         '
-        'Panel6
-        '
-        Me.Panel6.Controls.Add(Me.Label8)
-        Me.Panel6.Controls.Add(Me.RadioButton11)
-        Me.Panel6.Controls.Add(Me.RadioButton12)
-        Me.Panel6.Location = New System.Drawing.Point(18, 290)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(523, 43)
-        Me.Panel6.TabIndex = 8
-        '
-        'Label8
-        '
-        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label8.Location = New System.Drawing.Point(3, 3)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(3)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(428, 37)
-        Me.Label8.TabIndex = 0
-        Me.Label8.Text = "6. Registra acciones y eventos que pueden impactar la eficacia o desempeño del SG" & _
-            "CI."
-        '
-        'RadioButton11
-        '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Checked = True
-        Me.RadioButton11.Location = New System.Drawing.Point(479, 11)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton11.TabIndex = 2
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "No"
-        Me.RadioButton11.UseVisualStyleBackColor = True
-        '
-        'RadioButton12
-        '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(437, 11)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(36, 19)
-        Me.RadioButton12.TabIndex = 1
-        Me.RadioButton12.Text = "Si"
-        Me.RadioButton12.UseVisualStyleBackColor = True
-        '
         'seguimientoSGSIAuditoria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(585, 439)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
@@ -388,6 +391,8 @@ Partial Class seguimientoSGSIAuditoria
         Me.Text = "Seguimiento y revisión del SGSI"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
         Me.Panel4.ResumeLayout(False)
@@ -398,8 +403,6 @@ Partial Class seguimientoSGSIAuditoria
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel6.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
