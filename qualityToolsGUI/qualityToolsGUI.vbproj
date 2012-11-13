@@ -106,6 +106,12 @@
     <Compile Include="controlDocumentosSGSIAuditoria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="direccioncomercial.Designer.vb">
+      <DependentUpon>direccioncomercial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="direccioncomercial.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="direcciongeneral.Designer.vb">
       <DependentUpon>direcciongeneral.vb</DependentUpon>
     </Compile>
@@ -213,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="controlDocumentosSGSIAuditoria.resx">
       <DependentUpon>controlDocumentosSGSIAuditoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="direccioncomercial.resx">
+      <DependentUpon>direccioncomercial.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="direcciongeneral.resx">
       <DependentUpon>direcciongeneral.vb</DependentUpon>

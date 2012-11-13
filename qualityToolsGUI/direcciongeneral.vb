@@ -42,4 +42,5 @@
         RichTextBox4.Enabled = False
 
     End Sub
+
 End Class
