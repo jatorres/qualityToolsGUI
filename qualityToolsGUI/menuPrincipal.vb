@@ -33,6 +33,7 @@
 
     Private Sub RealizarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RealizarToolStripMenuItem.Click
         auditoriaOpciones.Show()
+        Hide()
 
     End Sub
 
