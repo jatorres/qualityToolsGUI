@@ -204,7 +204,7 @@ Partial Class gestiondiseñoaplic
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(353, 20)
         Me.TextBox6.TabIndex = 11
-        Me.TextBox6.Text = "Lider del Proyecto"
+        Me.TextBox6.Text = "Desarrollador"
         '
         'TextBox5
         '
@@ -213,7 +213,7 @@ Partial Class gestiondiseñoaplic
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(221, 20)
         Me.TextBox5.TabIndex = 10
-        Me.TextBox5.Text = "Angel Torres"
+        Me.TextBox5.Text = "Rodolfo Moncada"
         '
         'Label7
         '
@@ -267,7 +267,7 @@ Partial Class gestiondiseñoaplic
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(129, 20)
         Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Text = "1"
+        Me.TextBox1.Text = "3"
         '
         'Label5
         '
@@ -310,7 +310,7 @@ Partial Class gestiondiseñoaplic
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(646, 522)
+        Me.ClientSize = New System.Drawing.Size(626, 516)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -318,6 +318,7 @@ Partial Class gestiondiseñoaplic
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "gestiondiseñoaplic"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "gestiondiseñoaplic"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

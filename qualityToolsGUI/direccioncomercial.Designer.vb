@@ -91,9 +91,9 @@ Partial Class direccioncomercial
         Me.Label1.ForeColor = System.Drawing.Color.Blue
         Me.Label1.Location = New System.Drawing.Point(28, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(184, 25)
+        Me.Label1.Size = New System.Drawing.Size(205, 25)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Direccion General"
+        Me.Label1.Text = "Direccion Comercial"
         '
         'GroupBox1
         '
@@ -310,7 +310,7 @@ Partial Class direccioncomercial
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(659, 512)
+        Me.ClientSize = New System.Drawing.Size(640, 508)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)

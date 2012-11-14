@@ -118,6 +118,12 @@
     <Compile Include="direcciongeneral.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="dptofinanciero.Designer.vb">
+      <DependentUpon>dptofinanciero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dptofinanciero.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="establecimientoSGSIAuditoria.Designer.vb">
       <DependentUpon>establecimientoSGSIAuditoria.vb</DependentUpon>
     </Compile>
@@ -135,6 +141,12 @@
       <DependentUpon>gestiondiseñoaplic.vb</DependentUpon>
     </Compile>
     <Compile Include="gestiondiseñoaplic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionserv.Designer.vb">
+      <DependentUpon>gestionserv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gestionserv.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mapaprocesos.Designer.vb">
@@ -218,6 +230,12 @@
     <Compile Include="seguimientoSGSIAuditoria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="segureddato.Designer.vb">
+      <DependentUpon>segureddato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="segureddato.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SplashScreen1.Designer.vb">
       <DependentUpon>SplashScreen1.vb</DependentUpon>
     </Compile>
@@ -238,6 +256,9 @@
     <EmbeddedResource Include="direcciongeneral.resx">
       <DependentUpon>direcciongeneral.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dptofinanciero.resx">
+      <DependentUpon>dptofinanciero.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="establecimientoSGSIAuditoria.resx">
       <DependentUpon>establecimientoSGSIAuditoria.vb</DependentUpon>
     </EmbeddedResource>
@@ -246,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="gestiondiseñoaplic.resx">
       <DependentUpon>gestiondiseñoaplic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionserv.resx">
+      <DependentUpon>gestionserv.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mapaprocesos.resx">
       <DependentUpon>mapaprocesos.vb</DependentUpon>
@@ -285,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="seguimientoSGSIAuditoria.resx">
       <DependentUpon>seguimientoSGSIAuditoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="segureddato.resx">
+      <DependentUpon>segureddato.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen1.resx">
       <DependentUpon>SplashScreen1.vb</DependentUpon>

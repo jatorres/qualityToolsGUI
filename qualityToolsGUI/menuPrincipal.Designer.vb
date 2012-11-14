@@ -36,7 +36,6 @@ Partial Class menuPrincipal
         Me.RecomendacionesParaDocumentarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DiagramasCasosDeUsoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstadisticasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
@@ -50,7 +49,7 @@ Partial Class menuPrincipal
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.White
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BasicosToolStripMenuItem, Me.AuditoriaToolStripMenuItem, Me.NovedadesToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.DocumentacionToolStripMenuItem, Me.EstadisticasToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BasicosToolStripMenuItem, Me.AuditoriaToolStripMenuItem, Me.NovedadesToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.DocumentacionToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(654, 24)
@@ -133,12 +132,6 @@ Partial Class menuPrincipal
         Me.DiagramasCasosDeUsoToolStripMenuItem.Name = "DiagramasCasosDeUsoToolStripMenuItem"
         Me.DiagramasCasosDeUsoToolStripMenuItem.Size = New System.Drawing.Size(265, 22)
         Me.DiagramasCasosDeUsoToolStripMenuItem.Text = "Recomendaciones para documentar"
-        '
-        'EstadisticasToolStripMenuItem
-        '
-        Me.EstadisticasToolStripMenuItem.Name = "EstadisticasToolStripMenuItem"
-        Me.EstadisticasToolStripMenuItem.Size = New System.Drawing.Size(79, 20)
-        Me.EstadisticasToolStripMenuItem.Text = "Estadisticas"
         '
         'SalirToolStripMenuItem
         '
@@ -223,7 +216,6 @@ Partial Class menuPrincipal
     Friend WithEvents ToolStripStatusLabel3 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents NovedadesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ReportesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EstadisticasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ProcesosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TiposDeProcesosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem

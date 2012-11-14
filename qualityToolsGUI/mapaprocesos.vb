@@ -17,6 +17,26 @@
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        gestiondiseñoaplic.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        segureddato.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        gestionserv.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+        dptofinanciero.Show()
+        Me.Hide()
 
     End Sub
 End Class
