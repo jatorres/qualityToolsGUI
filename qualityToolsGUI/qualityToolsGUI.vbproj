@@ -131,6 +131,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="gestiondiseñoaplic.Designer.vb">
+      <DependentUpon>gestiondiseñoaplic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gestiondiseñoaplic.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mapaprocesos.Designer.vb">
       <DependentUpon>mapaprocesos.vb</DependentUpon>
     </Compile>
@@ -231,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestiondiseñoaplic.resx">
+      <DependentUpon>gestiondiseñoaplic.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mapaprocesos.resx">
       <DependentUpon>mapaprocesos.vb</DependentUpon>
