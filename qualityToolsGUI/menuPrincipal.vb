@@ -66,4 +66,14 @@
     Private Sub menuPrincipal_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         MessageBox.Show("Software para Finac S.A.S.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
+
+    Private Sub RecomendacionesParaDocumentarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RecomendacionesParaDocumentarToolStripMenuItem.Click
+        Dim activeChild As Form = Me.ActiveMdiChild
+        If Not activeChild Is Nothing Then
+            activeChild.Close()
+        End If
+
+        reporteAuditoria.MdiParent = Me
+        reporteAuditoria.Show()
+    End Sub
 End Class

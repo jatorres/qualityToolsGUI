@@ -33,6 +33,7 @@ Partial Class menuPrincipal
         Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TiposDeProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RecomendacionesParaDocumentarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DiagramasCasosDeUsoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstadisticasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -109,9 +110,16 @@ Partial Class menuPrincipal
         '
         'ReportesToolStripMenuItem
         '
+        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RecomendacionesParaDocumentarToolStripMenuItem})
         Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
         Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
         Me.ReportesToolStripMenuItem.Text = "Reportes"
+        '
+        'RecomendacionesParaDocumentarToolStripMenuItem
+        '
+        Me.RecomendacionesParaDocumentarToolStripMenuItem.Name = "RecomendacionesParaDocumentarToolStripMenuItem"
+        Me.RecomendacionesParaDocumentarToolStripMenuItem.Size = New System.Drawing.Size(265, 22)
+        Me.RecomendacionesParaDocumentarToolStripMenuItem.Text = "Recomendaciones para documentar"
         '
         'DocumentacionToolStripMenuItem
         '
@@ -224,4 +232,5 @@ Partial Class menuPrincipal
     Friend WithEvents RealizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents DiagramasCasosDeUsoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RecomendacionesParaDocumentarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
