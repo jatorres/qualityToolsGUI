@@ -67,3 +67,8 @@ C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qua
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.contracc.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.gestioncomunic.resources
 C:\Users\User\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.segufisient.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.contracc.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.gestioncomunic.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.politicasdeseg.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.rh.resources
+C:\Users\Developer\Documents\GitHub\qualityToolsGUI\qualityToolsGUI\obj\x86\Debug\qualityToolsGUI.segufisient.resources

@@ -40,8 +40,21 @@
     End Sub
 
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+        dptofinanciero.MdiParent = menuPrincipal
         dptofinanciero.Show()
-        Me.Hide()
+        Close()
 
+    End Sub
+
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
+        gestiondiseñoaplic.MdiParent = menuPrincipal
+        gestiondiseñoaplic.Show()
+        Close()
+    End Sub
+
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+        direcciongeneral.MdiParent = menuPrincipal
+        direcciongeneral.Show()
+        Close()
     End Sub
 End Class
