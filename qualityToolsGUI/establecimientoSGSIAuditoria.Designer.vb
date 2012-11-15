@@ -27,10 +27,6 @@ Partial Class establecimientoSGSIAuditoria
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.RadioButton13 = New System.Windows.Forms.RadioButton()
@@ -61,7 +57,6 @@ Partial Class establecimientoSGSIAuditoria
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        Me.Panel8.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel5.SuspendLayout()
@@ -86,7 +81,6 @@ Partial Class establecimientoSGSIAuditoria
         '
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Controls.Add(Me.Panel8)
         Me.GroupBox1.Controls.Add(Me.Panel7)
         Me.GroupBox1.Controls.Add(Me.Panel6)
         Me.GroupBox1.Controls.Add(Me.Panel5)
@@ -125,54 +119,12 @@ Partial Class establecimientoSGSIAuditoria
         Me.Button1.Text = "Volver"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Panel8
-        '
-        Me.Panel8.Controls.Add(Me.Label10)
-        Me.Panel8.Controls.Add(Me.RadioButton15)
-        Me.Panel8.Controls.Add(Me.RadioButton16)
-        Me.Panel8.Location = New System.Drawing.Point(18, 347)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(523, 28)
-        Me.Panel8.TabIndex = 10
-        '
-        'Label10
-        '
-        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label10.Location = New System.Drawing.Point(3, 3)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(3)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(428, 20)
-        Me.Label10.TabIndex = 0
-        Me.Label10.Text = "8. Ha desarrollado una declaración de aplicabilidad."
-        '
-        'RadioButton15
-        '
-        Me.RadioButton15.AutoSize = True
-        Me.RadioButton15.Checked = True
-        Me.RadioButton15.Location = New System.Drawing.Point(479, 4)
-        Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton15.TabIndex = 2
-        Me.RadioButton15.TabStop = True
-        Me.RadioButton15.Text = "No"
-        Me.RadioButton15.UseVisualStyleBackColor = True
-        '
-        'RadioButton16
-        '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(437, 4)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(36, 19)
-        Me.RadioButton16.TabIndex = 1
-        Me.RadioButton16.Text = "Si"
-        Me.RadioButton16.UseVisualStyleBackColor = True
-        '
         'Panel7
         '
         Me.Panel7.Controls.Add(Me.Label9)
         Me.Panel7.Controls.Add(Me.RadioButton13)
         Me.Panel7.Controls.Add(Me.RadioButton14)
-        Me.Panel7.Location = New System.Drawing.Point(18, 294)
+        Me.Panel7.Location = New System.Drawing.Point(18, 326)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(523, 47)
         Me.Panel7.TabIndex = 9
@@ -185,8 +137,9 @@ Partial Class establecimientoSGSIAuditoria
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(428, 31)
         Me.Label9.TabIndex = 0
-        Me.Label9.Text = "7. Ha identificado los objetivos de control y los controles para el tratamiento d" & _
-            "e los riesgos."
+        Me.Label9.Text = "7. Se tiene alguna metodologia para la valoracion de los riesgos que sea adecuada" & _
+            " a sgsi y a los requisitos regalmentarios de la seguridad de la informacionde fi" & _
+            "nac."
         '
         'RadioButton13
         '
@@ -215,7 +168,7 @@ Partial Class establecimientoSGSIAuditoria
         Me.Panel6.Controls.Add(Me.Label8)
         Me.Panel6.Controls.Add(Me.RadioButton11)
         Me.Panel6.Controls.Add(Me.RadioButton12)
-        Me.Panel6.Location = New System.Drawing.Point(18, 260)
+        Me.Panel6.Location = New System.Drawing.Point(18, 292)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(523, 28)
         Me.Panel6.TabIndex = 8
@@ -257,7 +210,7 @@ Partial Class establecimientoSGSIAuditoria
         Me.Panel5.Controls.Add(Me.Label7)
         Me.Panel5.Controls.Add(Me.RadioButton9)
         Me.Panel5.Controls.Add(Me.RadioButton10)
-        Me.Panel5.Location = New System.Drawing.Point(18, 226)
+        Me.Panel5.Location = New System.Drawing.Point(18, 258)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(523, 28)
         Me.Panel5.TabIndex = 7
@@ -299,7 +252,7 @@ Partial Class establecimientoSGSIAuditoria
         Me.Panel4.Controls.Add(Me.Label6)
         Me.Panel4.Controls.Add(Me.RadioButton7)
         Me.Panel4.Controls.Add(Me.RadioButton8)
-        Me.Panel4.Location = New System.Drawing.Point(18, 192)
+        Me.Panel4.Location = New System.Drawing.Point(18, 224)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(523, 28)
         Me.Panel4.TabIndex = 6
@@ -343,7 +296,7 @@ Partial Class establecimientoSGSIAuditoria
         Me.Panel3.Controls.Add(Me.RadioButton4)
         Me.Panel3.Location = New System.Drawing.Point(18, 158)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(523, 28)
+        Me.Panel3.Size = New System.Drawing.Size(523, 60)
         Me.Panel3.TabIndex = 5
         '
         'Label5
@@ -352,9 +305,11 @@ Partial Class establecimientoSGSIAuditoria
         Me.Label5.Location = New System.Drawing.Point(3, 3)
         Me.Label5.Margin = New System.Windows.Forms.Padding(3)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(428, 19)
+        Me.Label5.Size = New System.Drawing.Size(428, 54)
         Me.Label5.TabIndex = 0
-        Me.Label5.Text = "3. Ha definido un enfoque organizacional para la valoración del riesgo."
+        Me.Label5.Text = "3. se tiene alguna metodologia para la valoracion de los riesgos que sea " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "adecua" & _
+            "da a sgsi y a los requisitos regalmentarios de la seguridad de la " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "informaciond" & _
+            "e final."
         '
         'RadioButton3
         '
@@ -489,8 +444,6 @@ Partial Class establecimientoSGSIAuditoria
         Me.Text = "Establecimiento del  SGSI"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
         Me.Panel6.ResumeLayout(False)
@@ -522,10 +475,6 @@ Partial Class establecimientoSGSIAuditoria
     Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Panel8 As System.Windows.Forms.Panel
-    Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton15 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton16 As System.Windows.Forms.RadioButton
     Friend WithEvents Panel7 As System.Windows.Forms.Panel
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents RadioButton13 As System.Windows.Forms.RadioButton
