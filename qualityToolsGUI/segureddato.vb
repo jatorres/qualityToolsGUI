@@ -1,7 +1,6 @@
 ﻿Public Class segureddato
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-
         TextBox1.Enabled = True
         TextBox2.Enabled = True
         TextBox3.Enabled = True
@@ -16,13 +15,12 @@
         Button3.Visible = True
         Button1.Visible = False
 
-
-
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        Mapaprocesos.MdiParent = menuPrincipal
         Mapaprocesos.Show()
-        Me.Close()
+        Close()
 
     End Sub
 

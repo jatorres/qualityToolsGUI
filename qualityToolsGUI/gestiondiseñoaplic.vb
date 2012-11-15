@@ -1,8 +1,9 @@
 ﻿Public Class gestiondiseñoaplic
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        Me.Close()
+        Mapaprocesos.MdiParent = menuPrincipal
         Mapaprocesos.Show()
+        Close()
 
     End Sub
 

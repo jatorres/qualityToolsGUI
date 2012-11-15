@@ -1,36 +1,41 @@
 ﻿Public Class Mapaprocesos
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        Me.Close()
+        Close()
 
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        direcciongeneral.MdiParent = menuPrincipal
         direcciongeneral.Show()
-        Me.Hide()
+        Close()
 
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        direccioncomercial.MdiParent = menuPrincipal
         direccioncomercial.Show()
-        Me.Hide()
+        Close()
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        gestiondiseñoaplic.MdiParent = menuPrincipal
         gestiondiseñoaplic.Show()
-        Me.Hide()
+        Close()
 
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        segureddato.MdiParent = menuPrincipal
         segureddato.Show()
-        Me.Hide()
+        Close()
 
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        gestionserv.MdiParent = menuPrincipal
         gestionserv.Show()
-        Me.Hide()
+        Close()
 
     End Sub
 

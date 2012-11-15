@@ -48,39 +48,41 @@ Partial Class menuPrincipal
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.AllowMerge = False
+        Me.MenuStrip1.AutoSize = False
         Me.MenuStrip1.BackColor = System.Drawing.Color.White
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BasicosToolStripMenuItem, Me.AuditoriaToolStripMenuItem, Me.NovedadesToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.DocumentacionToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(654, 24)
-        Me.MenuStrip1.TabIndex = 3
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.Text = "Menú opciones"
         '
         'BasicosToolStripMenuItem
         '
         Me.BasicosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InformacionEmpresaToolStripMenuItem, Me.InformacionAuditorToolStripMenuItem})
         Me.BasicosToolStripMenuItem.Name = "BasicosToolStripMenuItem"
-        Me.BasicosToolStripMenuItem.Size = New System.Drawing.Size(155, 20)
-        Me.BasicosToolStripMenuItem.Text = "Información organización"
+        Me.BasicosToolStripMenuItem.Size = New System.Drawing.Size(147, 20)
+        Me.BasicosToolStripMenuItem.Text = "Información Finac S.A.S."
         '
         'InformacionEmpresaToolStripMenuItem
         '
         Me.InformacionEmpresaToolStripMenuItem.Name = "InformacionEmpresaToolStripMenuItem"
-        Me.InformacionEmpresaToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
-        Me.InformacionEmpresaToolStripMenuItem.Text = "Informacion Empresa"
+        Me.InformacionEmpresaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.InformacionEmpresaToolStripMenuItem.Text = "Finac S.A.S."
         '
         'InformacionAuditorToolStripMenuItem
         '
         Me.InformacionAuditorToolStripMenuItem.Name = "InformacionAuditorToolStripMenuItem"
-        Me.InformacionAuditorToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
-        Me.InformacionAuditorToolStripMenuItem.Text = "Informacion Auditor"
+        Me.InformacionAuditorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.InformacionAuditorToolStripMenuItem.Text = "Información auditor"
         '
         'AuditoriaToolStripMenuItem
         '
         Me.AuditoriaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RealizarToolStripMenuItem})
         Me.AuditoriaToolStripMenuItem.Name = "AuditoriaToolStripMenuItem"
         Me.AuditoriaToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
-        Me.AuditoriaToolStripMenuItem.Text = "Auditoria"
+        Me.AuditoriaToolStripMenuItem.Text = "Auditoría"
         '
         'RealizarToolStripMenuItem
         '
@@ -117,15 +119,15 @@ Partial Class menuPrincipal
         'RecomendacionesParaDocumentarToolStripMenuItem
         '
         Me.RecomendacionesParaDocumentarToolStripMenuItem.Name = "RecomendacionesParaDocumentarToolStripMenuItem"
-        Me.RecomendacionesParaDocumentarToolStripMenuItem.Size = New System.Drawing.Size(265, 22)
-        Me.RecomendacionesParaDocumentarToolStripMenuItem.Text = "Recomendaciones para documentar"
+        Me.RecomendacionesParaDocumentarToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
+        Me.RecomendacionesParaDocumentarToolStripMenuItem.Text = "Reporte de auditoría"
         '
         'DocumentacionToolStripMenuItem
         '
         Me.DocumentacionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DiagramasCasosDeUsoToolStripMenuItem})
         Me.DocumentacionToolStripMenuItem.Name = "DocumentacionToolStripMenuItem"
         Me.DocumentacionToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
-        Me.DocumentacionToolStripMenuItem.Text = "Documentacion"
+        Me.DocumentacionToolStripMenuItem.Text = "Documentación"
         '
         'DiagramasCasosDeUsoToolStripMenuItem
         '
@@ -142,7 +144,7 @@ Partial Class menuPrincipal
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 512)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 547)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(654, 22)
         Me.StatusStrip1.TabIndex = 5
@@ -175,7 +177,7 @@ Partial Class menuPrincipal
         Me.DateTimePicker1.Enabled = False
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.DateTimePicker1.Location = New System.Drawing.Point(506, 512)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(523, 549)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(99, 20)
         Me.DateTimePicker1.TabIndex = 6
@@ -186,7 +188,7 @@ Partial Class menuPrincipal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = Global.qualityToolsGUI.My.Resources.Resources.fondoContenedor
-        Me.ClientSize = New System.Drawing.Size(654, 534)
+        Me.ClientSize = New System.Drawing.Size(654, 569)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
