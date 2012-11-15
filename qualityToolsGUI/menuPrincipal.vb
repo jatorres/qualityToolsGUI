@@ -60,7 +60,13 @@
     End Sub
 
     Private Sub DiagramasCasosDeUsoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DiagramasCasosDeUsoToolStripMenuItem.Click
+        Dim activeChild As Form = Me.ActiveMdiChild
+        If Not activeChild Is Nothing Then
+            activeChild.Close()
+        End If
 
+        politicasdeseg.MdiParent = Me
+        politicasdeseg.Show()
     End Sub
 
     Private Sub menuPrincipal_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
@@ -76,4 +82,10 @@
         reporteAuditoria.MdiParent = Me
         reporteAuditoria.Show()
     End Sub
+
+    Private Sub menuPrincipal_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    
 End Class

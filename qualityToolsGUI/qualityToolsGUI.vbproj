@@ -100,6 +100,12 @@
     <Compile Include="auditoriaOpciones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="contracc.Designer.vb">
+      <DependentUpon>contracc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contracc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="controlDocumentosSGSIAuditoria.Designer.vb">
       <DependentUpon>controlDocumentosSGSIAuditoria.vb</DependentUpon>
     </Compile>
@@ -135,6 +141,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestioncomunic.Designer.vb">
+      <DependentUpon>gestioncomunic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gestioncomunic.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="gestiondiseñoaplic.Designer.vb">
@@ -206,6 +218,12 @@
     <Compile Include="Nuevo Proceso.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="politicasdeseg.Designer.vb">
+      <DependentUpon>politicasdeseg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="politicasdeseg.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="puntuacionRecomendSGSIAuditoria.Designer.vb">
       <DependentUpon>puntuacionRecomendSGSIAuditoria.vb</DependentUpon>
     </Compile>
@@ -222,6 +240,18 @@
       <DependentUpon>reporteAuditoria.vb</DependentUpon>
     </Compile>
     <Compile Include="reporteAuditoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rh.Designer.vb">
+      <DependentUpon>rh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="segufisient.Designer.vb">
+      <DependentUpon>segufisient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="segufisient.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="seguimientoSGSIAuditoria.Designer.vb">
@@ -247,6 +277,9 @@
     <EmbeddedResource Include="auditoriaOpciones.resx">
       <DependentUpon>auditoriaOpciones.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="contracc.resx">
+      <DependentUpon>contracc.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="controlDocumentosSGSIAuditoria.resx">
       <DependentUpon>controlDocumentosSGSIAuditoria.vb</DependentUpon>
     </EmbeddedResource>
@@ -264,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestioncomunic.resx">
+      <DependentUpon>gestioncomunic.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gestiondiseñoaplic.resx">
       <DependentUpon>gestiondiseñoaplic.vb</DependentUpon>
@@ -298,6 +334,9 @@
     <EmbeddedResource Include="Nuevo Proceso.resx">
       <DependentUpon>Nuevo Proceso.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="politicasdeseg.resx">
+      <DependentUpon>politicasdeseg.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="puntuacionRecomendSGSIAuditoria.resx">
       <DependentUpon>puntuacionRecomendSGSIAuditoria.vb</DependentUpon>
     </EmbeddedResource>
@@ -306,6 +345,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="reporteAuditoria.resx">
       <DependentUpon>reporteAuditoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rh.resx">
+      <DependentUpon>rh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="segufisient.resx">
+      <DependentUpon>segufisient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="seguimientoSGSIAuditoria.resx">
       <DependentUpon>seguimientoSGSIAuditoria.vb</DependentUpon>
